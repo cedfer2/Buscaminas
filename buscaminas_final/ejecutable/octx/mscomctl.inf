@@ -1,0 +1,26 @@
+; INF file for mscomctl.ocx
+
+[DefaultInstall]
+CopyFiles=install.files
+RegisterOCXs=RegisterFiles
+
+[DestinationDirs]
+install.files=11
+
+[install.files]
+mscomctl.ocx=mscomctl.ocx
+
+[RegisterFiles]
+%11%\mscomctl.ocx
+
+[mscomctl.ocx]
+file-win32-x86=thiscab
+RegisterServer=Yes
+FileVersion=6,1,98,34
+
+[version]
+signature="$CHICAGO$"
+AdvancedINF=2.0
+
+[SourceDisksNames]
+1="default",,1

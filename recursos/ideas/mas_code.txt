@@ -1,0 +1,14 @@
+If a15.Picture = ban(a).Picture _
+And a16.Picture = ban(a).Picture _
+And a18.Picture = ban(a).Picture _
+And a36.Picture = ban(a).Picture _
+And a42.Picture = ban(a).Picture _
+And a44.Picture = ban(a).Picture _
+And a52.Picture = ban(a).Picture _
+And a54.Picture = ban(a).Picture _
+And a66.Picture = ban(a).Picture _
+And a72.Picture = ban(a).Picture Then
+'Command2.Enabled = False
+MsgBox "Ayuda no disponible." & vbCrLf & "Logro el numero maximo de minas marcadas"
+Exit Sub
+End If

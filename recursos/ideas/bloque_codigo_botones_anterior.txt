@@ -1,0 +1,779 @@
+Private Sub a5_Click()
+Call experimental(a5, 0)
+End Sub
+
+Private Sub a6_Click()
+Call experimental(a6, 0)
+End Sub
+
+Private Sub a7_Click()
+Call experimental(a7, 0)
+End Sub
+
+Private Sub a8_Click()
+Call experimental(a8, 0)
+End Sub
+
+Private Sub a9_Click()
+Call experimental(a9, 0)
+End Sub
+
+Private Sub a10_Click()
+Call experimental(a10, 0)
+End Sub
+
+Private Sub a11_Click()
+Call experimental(a11, 2)
+End Sub
+
+Private Sub a12_Click()
+Call experimental(a12, 2)
+End Sub
+
+Private Sub a13_Click()
+Call experimental(a13, 2)
+End Sub
+
+Private Sub a14_Click()
+Call experimental(a14, 0)
+End Sub
+
+Private Sub a15_Click()
+Call experimental(a15, 1)
+End Sub
+
+Private Sub a16_Click()
+Call experimental(a16, 1)
+End Sub
+
+Private Sub a17_Click()
+Call experimental(a17, 0)
+End Sub
+
+Private Sub a18_Click()
+Call experimental(a18, 1)
+End Sub
+
+Private Sub a19_Click()
+Call experimental(a19, 2)
+End Sub
+Private Sub a20_Click()
+Call experimental(a20, 0)
+End Sub
+
+Private Sub a21_Click()
+Call experimental(a21, 2)
+End Sub
+
+Private Sub a22_Click()
+
+If a22.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a22.Visible = False
+delay.Enabled = True
+End If
+End Sub
+Private Sub a23_Click()
+
+If a23.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a23.Visible = False
+End If
+End Sub
+
+Private Sub a24_Click()
+
+If a24.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a24.Visible = False
+End If
+End Sub
+
+Private Sub a25_Click()
+
+If a25.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a25.Visible = False
+End If
+End Sub
+Private Sub a26_Click()
+
+If a26.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a26.Visible = False
+End If
+End Sub
+
+Private Sub a27_Click()
+
+If a27.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a27.Visible = False
+End If
+End Sub
+
+Private Sub a28_Click()
+
+If a28.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a28.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a29_Click()
+
+If a29.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a29.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a30_Click()
+
+If a30.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a30.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a31_Click()
+
+If a31.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a31.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a32_Click()
+
+If a32.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a32.Visible = False
+End If
+End Sub
+Private Sub a33_Click()
+
+If a33.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a33.Visible = False
+End If
+End Sub
+
+Private Sub a34_Click()
+
+If a34.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a34.Visible = False
+End If
+End Sub
+
+Private Sub a35_Click()
+
+If a35.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a35.Visible = False
+End If
+End Sub
+
+Private Sub a36_Click()
+
+If a36.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a36.Visible = False
+Call perder
+click.Caption = 3
+End If
+End Sub
+
+Private Sub a37_Click()
+
+If a37.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a37.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a38_Click()
+
+If a38.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a38.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a39_Click()
+
+If a39.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a39.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a40_Click()
+
+If a40.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a40.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a41_Click()
+
+If a41.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a41.Visible = False
+End If
+End Sub
+
+Private Sub a42_Click()
+
+If a42.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a42.Visible = False
+Call perder
+click.Caption = 4
+End If
+End Sub
+
+Private Sub a43_Click()
+
+If a43.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a43.Visible = False
+End If
+End Sub
+
+Private Sub a44_Click()
+
+If a44.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a44.Visible = False
+Call perder
+click.Caption = 5
+End If
+End Sub
+
+Private Sub a45_Click()
+
+If a45.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a45.Visible = False
+End If
+End Sub
+
+Private Sub a46_Click()
+
+If a46.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a46.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a47_Click()
+
+If a47.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a47.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a48_Click()
+
+If a48.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a48.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a49_Click()
+
+If a49.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a49.Visible = False
+delay.Enabled = True
+End If
+End Sub
+
+Private Sub a50_Click()
+
+If a50.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a50.Visible = False
+End If
+End Sub
+
+Private Sub a51_Click()
+
+If a51.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a51.Visible = False
+End If
+End Sub
+
+Private Sub a52_Click()
+
+If a52.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a52.Visible = False
+Call perder
+click.Caption = 6
+End If
+End Sub
+
+Private Sub a53_Click()
+
+If a53.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a53.Visible = False
+End If
+End Sub
+
+Private Sub a54_Click()
+
+If a54.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a54.Visible = False
+Call perder
+click.Caption = 7
+End If
+End Sub
+
+Private Sub a55_Click()
+
+If a55.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a55.Visible = False
+delay2.Enabled = True
+End If
+End Sub
+
+Private Sub a56_Click()
+
+If a56.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a56.Visible = False
+End If
+End Sub
+
+Private Sub a57_Click()
+
+If a57.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a57.Visible = False
+End If
+End Sub
+
+Private Sub a58_Click()
+
+If a58.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a58.Visible = False
+End If
+End Sub
+
+Private Sub a59_Click()
+
+If a59.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a59.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a60_Click()
+
+If a60.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a60.Visible = False
+End If
+End Sub
+Private Sub a61_Click()
+
+If a61.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a61.Visible = False
+End If
+End Sub
+Private Sub a62_Click()
+
+If a62.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a62.Visible = False
+End If
+End Sub
+
+Private Sub a63_Click()
+
+If a63.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a63.Visible = False
+End If
+End Sub
+Private Sub a64_Click()
+
+If a64.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a64.Visible = False
+delay2.Enabled = True
+End If
+End Sub
+Private Sub a65_Click()
+
+If a65.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a65.Visible = False
+End If
+End Sub
+Private Sub a66_Click()
+
+If a66.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a66.Visible = False
+Call perder
+click.Caption = 8
+End If
+End Sub
+Private Sub a67_Click()
+
+If a67.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a67.Visible = False
+End If
+End Sub
+Private Sub a68_Click()
+
+If a68.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a68.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a69_Click()
+
+If a69.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a69.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+
+Private Sub a70_Click()
+
+If a70.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a70.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a71_Click()
+
+If a71.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a71.Visible = False
+End If
+End Sub
+Private Sub a72_Click()
+
+If a72.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a72.Visible = False
+Call perder
+click.Caption = 9
+End If
+End Sub
+Private Sub a73_Click()
+
+If a73.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a73.Visible = False
+delay2.Enabled = True
+End If
+End Sub
+
+Private Sub a74_Click()
+
+If a74.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a74.Visible = False
+End If
+End Sub
+
+Private Sub a75_Click()
+
+If a75.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a75.Visible = False
+End If
+End Sub
+Private Sub a76_Click()
+
+If a76.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a76.Visible = False
+End If
+End Sub
+Private Sub a77_Click()
+
+If a77.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a77.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a78_Click()
+
+If a78.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a78.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a79_Click()
+
+If a79.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a79.Visible = False
+delay1.Enabled = True
+End If
+End Sub
+Private Sub a80_Click()
+
+If a80.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a80.Visible = False
+End If
+End Sub
+Private Sub a81_Click()
+
+If a81.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a81.Visible = False
+End If
+End Sub

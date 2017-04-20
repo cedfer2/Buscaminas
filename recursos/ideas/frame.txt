@@ -1,0 +1,18 @@
+' ---frame1 grande
+height=217
+width=305
+top=118
+left=0
+
+'---shape2 grande
+height=3255
+width=20490 '4575
+
+
+' ---frame 1 pequeño
+width=305
+height=137
+
+'---shape2 pequeño
+height=2055
+width=20490 '4575

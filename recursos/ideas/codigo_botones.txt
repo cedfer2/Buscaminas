@@ -1,0 +1,91 @@
+'---------------------- invocar
+
+
+If a1.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Frame1.Visible = False
+Timer1.Enabled = True
+
+a1.Visible = False
+delay.Enabled = True
+End If
+
+
+'------------------------ invocar 1
+If a73.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+
+a73.Visible = False
+delay2.Enabled = True
+End If
+
+
+
+
+'-------------------------- invocar 2
+If a78.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+a78.Visible = False
+delay1.Enabled = True
+End If
+
+
+
+'------------------------ boton vacio
+
+If a9.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a9.Visible = False
+End If
+
+
+'--------------------------- boton bomba
+
+If a18.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+Call mostru
+a18.Visible = False
+Call perder
+click.Caption = 2
+
+End If
+
+
+'--------------------------- boton experimental
+Sub bandera(controoo As Control, tipo_b As Integer)
+
+'0 = vacio
+-'1 = bomba
+-'2 = invocar
+-'3 = invocar1
+-'4 = invocar2
+
+
+Dim experi As CommandButton
+Set experi = controoo 'a3
+
+
+If experi.Picture <> ban(a).Picture And bloq.Caption <> 1 Then
+Frame1.Visible = False
+Timer1.Enabled = True
+
+Call sonidoplay(App.Path & "\recursos\1.wav", sincronizado)
+
+
+if tipo_b =0 then
+Call mostru
+a9.Visible = False
+end if

@@ -1,0 +1,84 @@
+Public Sub invocar()
+Form1.pop = 1
+Form1.MousePointer = 13
+If bor Mod 2 = 0 Then Call sndPlaySound(App.Path & "\recursos\2.wav", ASND_SYNC)
+
+If bor = 2 Then
+Call mostru
+Form1.a1.Visible = False
+End If
+
+If bor = 4 Then Form1.a2.Visible = False
+If bor = 6 Then Form1.a10.Visible = False
+
+If bor = 8 Then Form1.a3.Visible = False
+If bor = 10 Then Form1.a11.Visible = False
+If bor = 12 Then Form1.a19.Visible = False
+
+If bor = 14 Then Form1.a4.Visible = False
+If bor = 16 Then Form1.a12.Visible = False
+If bor = 18 Then Form1.a20.Visible = False
+If bor = 20 Then Form1.a28.Visible = False
+
+If bor = 22 Then Form1.a5.Visible = False
+If bor = 24 Then Form1.a13.Visible = False
+If bor = 26 Then Form1.a21.Visible = False
+If bor = 28 Then Form1.a29.Visible = False
+If bor = 30 Then Form1.a37.Visible = False
+
+If bor = 32 Then Form1.a14.Visible = False
+If bor = 34 Then Form1.a22.Visible = False
+If bor = 36 Then Form1.a30.Visible = False
+If bor = 38 Then Form1.a38.Visible = False
+If bor = 40 Then Form1.a46.Visible = False
+
+If bor = 42 Then Form1.a23.Visible = False
+If bor = 44 Then Form1.a31.Visible = False
+If bor = 46 Then Form1.a39.Visible = False
+If bor = 48 Then Form1.a47.Visible = False
+If bor = 50 Then Form1.a55.Visible = False
+
+If bor = 52 Then Form1.a32.Visible = False
+If bor = 54 Then Form1.a40.Visible = False
+If bor = 56 Then Form1.a48.Visible = False
+If bor = 58 Then Form1.a56.Visible = False
+If bor = 60 Then Form1.a64.Visible = False
+
+If bor = 62 Then Form1.a41.Visible = False
+If bor = 64 Then Form1.a49.Visible = False
+If bor = 66 Then Form1.a57.Visible = False
+If bor = 68 Then Form1.a65.Visible = False
+If bor = 70 Then Form1.a73.Visible = False
+
+If bor = 72 Then Form1.a50.Visible = False
+If bor = 74 Then Form1.a58.Visible = False
+If bor = 76 Then Form1.a74.Visible = False
+
+If bor = 78 Then Form1.a51.Visible = False
+If bor = 80 Then Form1.a59.Visible = False
+If bor = 82 Then Form1.a67.Visible = False
+
+If bor = 84 Then Form1.a60.Visible = False
+If bor = 86 Then Form1.a68.Visible = False
+If bor = 88 Then Form1.a76.Visible = False
+
+If bor = 90 Then Form1.a61.Visible = False
+If bor = 92 Then Form1.a69.Visible = False
+If bor = 94 Then Form1.a77.Visible = False
+
+If bor = 96 Then Form1.a62.Visible = False
+If bor = 98 Then Form1.a70.Visible = False
+If bor = 100 Then Form1.a78.Visible = False
+
+If bor = 104 Then Form1.a71.Visible = False
+If bor = 106 Then Form1.a79.Visible = False
+
+If bor = 108 Then
+Form1.a80.Visible = False
+delay.Enabled = False
+bor = 0
+
+Form1.pop = 0
+Form1.MousePointer = 0
+End If
+End Sub

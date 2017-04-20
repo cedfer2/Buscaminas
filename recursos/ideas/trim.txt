@@ -1,0 +1,13 @@
+' Initializes string.
+Dim TrimString As String
+TestString = "  <-Trim->  "
+
+' Returns "<-Trim->  ".
+TrimString = LTrim(TestString)
+' Returns "  <-Trim->".
+TrimString = RTrim(TestString)
+' Returns "<-Trim->".
+TrimString = LTrim(RTrim(TestString))
+' Using the Trim function alone achieves the same result.
+' Returns "<-Trim->".
+TrimString = Trim(TestString)

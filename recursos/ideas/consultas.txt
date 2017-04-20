@@ -1,0 +1,12 @@
+SELECT * FROM puntuaciones
+
+SELECT * FROM puntuaciones order by tiempo asc
+select * from puntuaciones  where tiempo= '34'
+select * from puntuaciones  where nombre= 'peka1'
+
+insert into puntuaciones (nombre,tiempo) values ('peko','1')
+
+
+SELECT * FROM puntuaciones where nombre= 'PEKO'
+
+DELETE * FROM puntuaciones where nombre= 'fredo'

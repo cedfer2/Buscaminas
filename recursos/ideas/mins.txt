@@ -1,0 +1,10 @@
+
+notas del proyectos
+
+al acercar cursor al option del formulario apariencia cambiar la imagen por otra.
+agregar seleccionar mina
+agregar un tercer fablero
+
+cambiar fondo del buscaminas y agregar animaciones
+agregar mostrar mina esplotada
+agregar animacion de seleccionar mina
